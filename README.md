@@ -23,12 +23,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./images/full-page.png.jpg)
+![](./images/full-page.png)
 
 ### Links
 
-- Solution URL: [SOLUTION](https://your-solution-url.com)
-- Live Site URL: [LIVE SITE](https://your-live-site-url.com)
+- Solution URL: [SOLUTION](https://www.frontendmentor.io/solutions/responsive-profile-card-using-css-flexbox-EQNmes2KZ0)
+- Live Site URL: [LIVE SITE](https://azizp128.github.io/profile-card/)
 
 ## My process
 
