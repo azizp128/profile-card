@@ -1,0 +1,101 @@
+:root {
+  --fnt-name-stat: 1.2em;
+  --fnt-card-header: hsl(229, 23%, 23%);
+  --fnt-card-paraghraph: hsl(227, 10%, 46%);
+  --clr-card-details: hsl(0, 0%, 59%);
+  --clr-card-body: hsl(185, 75%, 39%);
+}
+
+body {
+  margin: 0;
+  font-family: "Kumbh Sans", Courier, monospace;
+  background-color: var(--clr-card-body);
+}
+
+header img {
+  position: absolute;
+  width: 100%;
+  transform: rotate(90deg);
+  right: 50%;
+  bottom: 70%;
+  z-index: -1;
+}
+
+.card {
+  margin: 6em 2em;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.card .card-header {
+  width: 100%;
+  height: 20vh;
+  background-image: url(images/bg-pattern-card.svg);
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card .card-image {
+  border: 5px solid white;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 27%;
+  margin: 0 auto;
+}
+
+.card .card-details {
+  text-align: center;
+  padding-top: 4em;
+}
+
+.card .card-details h1,
+.card .card-stats h3 {
+  color: var(--fnt-card-header);
+  font-size: var(--fnt-name-stat);
+  font-weight: 700;
+  line-height: 0.1em;
+}
+
+.card .card-stats p {
+  font-size: 0.8em;
+  letter-spacing: 2px;
+}
+
+p,
+.card .card-details span {
+  color: var(--fnt-card-paraghraph);
+}
+
+.card .card-stats {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(199, 199, 199, 0.562);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Responsive Breakpoints */
+@media (min-width: 1100px) {
+  .card {
+    margin: 6em auto;
+    width: 25%;
+  }
+}
